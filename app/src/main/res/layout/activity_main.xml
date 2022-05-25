@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_250"
+        android:src="@drawable/harry_potter"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="36dp"
+        android:contentDescription="Filme Harry Potter, Imagem o harry potter segurado e pontando a vara">
+
+    </ImageView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_filme"
+        android:textSize="@dimen/tamanho_texto"
+        android:layout_marginTop="@dimen/margem_24"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/botao_mensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_botao_mensagem"
+        android:layout_margin="@dimen/margem_botao_24"
+        android:background="@color/orange_FFA726"/>
+
+
+
+</LinearLayout>

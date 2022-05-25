@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Filme</string>
+    <string name="nome_filme">Harry Potter</string>
+    <string name="titulo_botao_mensagem">Mensagem</string>
+</resources>
